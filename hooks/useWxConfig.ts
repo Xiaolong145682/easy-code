@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { wxMpGetJsConfig } from "@api/collection/WxMp"
 import { useEffect, useState } from "react"
 import Cookies from "js-cookie"

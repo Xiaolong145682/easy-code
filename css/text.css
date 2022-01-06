@@ -1,0 +1,16 @@
+/* 多行文本超出隐藏 */
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* 最多显示的行数 */
+  -webkit-line-clamp: 2;
+}
+
+/* 单行文本超出隐藏 */
+.text-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
